@@ -39,27 +39,6 @@ C:\Users\Korisnik\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Medium_Ph
 
 and after that if the emulator is running properly, you can start the app.
 
-##Project Structure
-
-.
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── org/
-│   │   │   │       └── unizd/
-│   │   │   │           └── rma/
-│   │   │   │               └── markanjevic/
-│   │   │   │                   ├── activities/            # Application activities
-│   │   │   │                   ├── adapters/              # RecyclerView adapters
-│   │   │   │                   ├── handlerClass/          # API calls
-│   │   │   │                   └── objects/               # Model objects (SearchMovie, Movie, etc.)
-│   │   │   └── res/
-│   │   │       ├── layout/        # XML layouts (UI)
-│   │   │       └── values/        # Colors, strings, dimensions
-│   └── build.gradle              # Project configuration
-├── build.gradle                  # Main project configuration
-└── settings.gradle                # Gradle settings
 
 
  
